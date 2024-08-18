@@ -1,0 +1,11 @@
+cargo-features = ["edition2024"]
+
+[package]
+name = "bindgen-unsafe-extern"
+version = "0.1.0"
+edition = "2024"
+build = "build.rs"
+
+[build-dependencies]
+bindgen = "^0.70.0"
+cc = "^1.1.13"
